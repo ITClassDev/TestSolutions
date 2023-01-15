@@ -9,6 +9,7 @@ int sum(int a, int b){
   return a + b;
 }
 string rev(string a){
-  return reverse(a.begin(), a.end());
+  reverse(a.begin(), a.end());
+  return a;
 }
 
